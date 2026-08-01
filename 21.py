@@ -20,7 +20,7 @@ class Solution(object):
             tail = tail.next
 
         tail.next = node1 if node1 else node2
-        return dummy.next
+        return dummy.next   
 
 
 
